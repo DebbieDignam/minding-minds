@@ -28,8 +28,16 @@ header  {
     box-shadow: 0 2px 2px #2F4858;
 }
 
+header  a   {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1  {
     font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #2F4858;
 }
 
 /* MAIN CONTENT */
