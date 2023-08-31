@@ -132,3 +132,17 @@ footer  {
         margin-top: 95px;
     }
 }
+
+/* MEDIA QUERY: LAPTOPS AND LARGER (992px and upwards) */
+@media screen and (min-width: 992px)    {
+
+    /* Header - Navbar spacing */
+    #menu   >   li  {
+        padding-left: 3rem;
+    }
+ 
+    /* HOVER MOUSE over page link */
+    #menu a:hover {
+        border-bottom: 1px solid #2F4858;
+    }    
+}
