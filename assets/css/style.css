@@ -50,6 +50,10 @@ h1  {
     margin: 0.5em 0;
 }
 
+.active {
+    border-bottom: 1px solid #2F4858;
+}
+
 /* MAIN CONTENT */
 main  {
     background-color: #DFE0DF;
