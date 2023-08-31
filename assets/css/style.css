@@ -40,6 +40,16 @@ h1  {
     color: #2F4858;
 }
 
+#menu   {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu > li   {
+    margin: 0.5em 0;
+}
+
 /* MAIN CONTENT */
 main  {
     background-color: #DFE0DF;
