@@ -23,6 +23,10 @@ header  {
     background-color: #683C21;
 }
 
+h1  {
+    font-family: 'montserrat', sans-serif;
+}
+
 /* MAIN CONTENT */
 main  {
     background-color: #DFE0DF;
