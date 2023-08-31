@@ -38,6 +38,7 @@ h1  {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: #2F4858;
+    padding: 10px 0;
 }
 
 #menu   {
@@ -52,6 +53,16 @@ h1  {
 
 .active {
     border-bottom: 1px solid #2F4858;
+}
+
+/* NAVBAR STYLES WITH DROPDOWN TOGGLE */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #2F4858;
+    display: none;
 }
 
 /* MAIN CONTENT */
