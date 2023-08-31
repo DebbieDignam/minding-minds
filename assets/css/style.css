@@ -28,7 +28,7 @@ header  {
     box-shadow: 0 2px 2px #2F4858;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header  a   {
@@ -89,10 +89,34 @@ main  {
     background-color: #DFE0DF;
     /* Expand main to push footer to bottom */
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 /* FOOTER */
 footer  {
     background-color: #005246;
+}
+
+/* MEDIA QUERY: TABLETS AND LARGER (768px and upwards) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu   {
+        display: flex;
+    }
+
+    #menu   >   li  {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label   {
+        display: none;
+    }
 }
