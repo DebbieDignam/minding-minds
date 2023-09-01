@@ -33,7 +33,7 @@ header  {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #2F4858;
+    box-shadow: 0 5px 2px #2F4858;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,31 +86,32 @@ nav {
 
 /* MAIN CONTENT */
 main  {
-    background-color: #DFE0DF;
+    background-color: #ffffff;
     /* Expand main to push footer to bottom */
     flex: 1 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
 #hero   {
-    height: 600px;
+    height: 620px;
     width: 100%;
-    background: url("../images/hero-downdog.webp") no-repeat center center/cover;
+    background: url("../images/yoga-bw-hero.webp") no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
     background-color: rgba(146, 102, 204, .6);
     position: absolute;
-    top: 50px;
+    bottom: 60px;
     right: 0;
     padding: 5px 20px;
-
 }
 
 #cover-text > h2, #cover-text > h3   {
-    color: #f0f4f7;
+    color: #ffffff;
 }
 
 /* FOOTER */
@@ -166,6 +167,18 @@ footer  {
         /* Expand main to push footer to bottom */
         margin-top: 95px;
     }
+
+    /* Hero */
+    #cover-text {
+        width: 50%;
+        right: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #cover-text > h2, #cover-text > h3  {
+        font-size: 150%;
+        letter-spacing: .2em;
 }
 
 /* MEDIA QUERY: LAPTOPS AND LARGER (992px and upwards) */
@@ -180,4 +193,12 @@ footer  {
     #menu a:hover {
         border-bottom: 1px solid #2F4858;
     }    
+
+    /* Hero */
+    #cover-text {
+        width: 50%;
+        text-align: center;
+        top: 30;
+        padding: 10px 0;
+    }
 }
