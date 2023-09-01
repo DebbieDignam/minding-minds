@@ -18,6 +18,14 @@ body    {
     font-family: 'quicksand', sans-serif;
 }
 
+h1, h2, h3  {
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #2F4858;
+    padding: 10px 0;
+}
+
 /* HEADER */
 header  {
     background-color: #ffffff;
@@ -34,14 +42,6 @@ header  {
 header  a   {
     text-decoration: none;
     color: inherit;
-}
-
-h1  {
-    font-family: 'montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #2F4858;
-    padding: 10px 0;
 }
 
 #menu   {
@@ -89,7 +89,7 @@ main  {
     background-color: #DFE0DF;
     /* Expand main to push footer to bottom */
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 /* Hero section */
@@ -97,6 +97,20 @@ main  {
     height: 600px;
     width: 100%;
     background: url("../images/hero-downdog.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(146, 102, 204, .6);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 5px 20px;
+
+}
+
+#cover-text > h2, #cover-text > h3   {
+    color: #f0f4f7;
 }
 
 /* FOOTER */
