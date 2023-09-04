@@ -114,6 +114,16 @@ main  {
     color: #ffffff;
 }
 
+#movement   {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#movement h3   {
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
 /* FOOTER */
 footer  {
     background-color: #2F4858;
@@ -179,6 +189,7 @@ footer  {
     #cover-text > h2, #cover-text > h3  {
         font-size: 150%;
         letter-spacing: .2em;
+    }
 }
 
 /* MEDIA QUERY: LAPTOPS AND LARGER (992px and upwards) */
