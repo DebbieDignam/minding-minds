@@ -114,14 +114,50 @@ main  {
     color: #ffffff;
 }
 
+/* Movement section */
 #movement   {
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto 5px;
+}
+
+#movement h2    {
+    text-align: center;
 }
 
 #movement h3   {
     text-transform: capitalize;
-    margin-top: 15px;
+    padding: 10px auto 5px;
+}
+
+hr  {
+    border-top: 1px solid #2F4858;
+    margin: 5px 0px;
+}
+
+#movement p {
+    padding: 0 10px 10px;
+}
+
+#who > div,
+#why > div  {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#circle-cover-bg    {
+    background: url("../images/kitchen.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#kitchen-image  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER */
@@ -190,7 +226,27 @@ footer  {
         font-size: 150%;
         letter-spacing: .2em;
     }
+
+
+/* Movement section */
+#who, #why  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+#who > div,
+#why > div  {
+    width: 75%;
+}
+
+#why > div  {
+    text-align: end;
+    align-self: flex-end;
+}
+
+}
+
 
 /* MEDIA QUERY: LAPTOPS AND LARGER (992px and upwards) */
 @media screen and (min-width: 992px)    {
