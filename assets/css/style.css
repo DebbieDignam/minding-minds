@@ -160,6 +160,12 @@ hr  {
     justify-content: center;
 }
 
+/* Practice section */
+#practice   {
+    width: 90%;
+    margin: 10px auto 5px;
+}
+
 /* FOOTER */
 footer  {
     background-color: #2F4858;
