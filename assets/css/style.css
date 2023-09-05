@@ -157,14 +157,34 @@ hr  {
 #kitchen-image  {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 /* Practice section */
-#practice   {
-    width: 90%;
-    margin: 10px auto 5px;
+#practice h2    {
+    text-align: center;
 }
+
+#practice h3    {
+    color: #ffffff;
+}
+
+#practice-options   {
+    background: url('../images/yoga-practice.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#practice-options div   {
+    color: #ffffff;
+    background-color: rgba(146, 102, 204, .6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #ffffff;
+}
+
 
 /* FOOTER */
 footer  {
@@ -317,4 +337,10 @@ footer  {
     #who > div  {
         align-self: flex-end;
     }   
+
+    /* Practice section */
+    #practice-options   {
+        height: 260px;
+        font-size: 150%;  
+    }
 }
