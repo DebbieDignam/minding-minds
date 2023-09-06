@@ -186,6 +186,10 @@ hr  {
     border: 2px solid #ffffff;
 }
 
+/* Gallery page */
+#images img {
+    width: 100%;
+}
 
 /* FOOTER */
 footer  {
@@ -205,6 +209,15 @@ footer  {
     padding: 5%;
     color: #ffffff;
 }
+
+/* MEDIA QUERY: LARGE OR LANDSCAPE PHONES (576px and upwards) */
+@media screen and (min-width: 576px) {
+    #images {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /* MEDIA QUERY: TABLETS AND LARGER (768px and upwards) */
 @media screen and (min-width: 768px) {
@@ -283,6 +296,11 @@ footer  {
         align-self: flex-end;
     }
 
+    /* Gallery */
+    #images {
+        column-count: 3;
+    }
+
 }
 
 /* MEDIA QUERY: LAPTOPS AND LARGER (992px and upwards) */
@@ -304,6 +322,11 @@ footer  {
         text-align: center;
         top: 30;
         padding: 10px 0;
+    }
+
+    /* Gallery */
+    #images {
+        column-count: 4;
     }
 }
 
