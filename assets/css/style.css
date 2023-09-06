@@ -87,6 +87,7 @@ nav {
 /* MAIN CONTENT */
 main  {
     background-color: #ffffff;
+    min-height: 100vh;
     /* Expand main to push footer to bottom */
     flex: 1 0 auto;
     margin-top: 60px;
@@ -145,7 +146,7 @@ hr  {
 }
 
 #circle-cover-bg    {
-    background: url("../images/kitchen.webp") no-repeat top center/cover;
+    background: url('../images/love-yoga.webp') no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -154,7 +155,7 @@ hr  {
     max-width: 300px;
 }
 
-#kitchen-image  {
+#love-yoga-image  {
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -322,7 +323,7 @@ footer  {
         flex: 1;
     }
 
-    #kitchen-image  {
+    #love-yoga-image  {
         order: 0;
     }
 
@@ -340,7 +341,6 @@ footer  {
 
     /* Practice section */
     #practice-options   {
-        height: 220px;
         font-size: 150%;  
     }
 }
