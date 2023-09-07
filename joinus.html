@@ -35,7 +35,41 @@
     </header>
 
     <!-- Main content -->
-    <main>Registration form</main>
+    <main>
+        <section id="join-us">
+            <form action="https://formdump.codeinstitute.net" method="post">
+                <h2><i class="fa-solid fa-user-plus"></i> Practice with us</h2>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" class="text-input" required>
+                <br>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" class="text-input" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="beginner">Beginner</label>
+                        <input type="radio" id="beginner" name="yoga-level" value="beginner" required checked>
+                    </div>
+                    <div>    
+                        <label for="intermediate">Intermediate</label>
+                        <input type="radio" id="intermediate" name="yoga-level" value="intermediate">
+                    </div>
+                    <div>
+                        <label for="advanced">Advanced</label>
+                        <input type="radio" id="advanced" name="yoga-level" value="advanced">
+                    </div>
+                    <div>
+                        <label for="yogi">Yogi</label>
+                        <input type="radio" id="yogi" name="yoga-level" value="yogi">
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Join Us</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
